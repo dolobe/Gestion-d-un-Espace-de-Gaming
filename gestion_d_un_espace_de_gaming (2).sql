@@ -344,3 +344,11 @@ FROM Scores sc
 JOIN Sessions s ON sc.id_session = s.id_sessions
 GROUP BY s.id_sessions, s.session_date
 HAVING MIN(sc.score) > 70;
+
+
+
+## Lien du depot Github : 
+-- SQL
+-- CDM
+-- https://github.com/dolobe/Gestion-d-un-Espace-de-Gaming.git
+
